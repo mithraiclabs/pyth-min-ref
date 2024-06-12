@@ -1,8 +1,12 @@
 [package]
 name = "pyth-min-ref"
 version = "0.1.0"
-description = "Created with Anchor"
+description = "Reference implementation of pyth-min crate"
 edition = "2021"
+readme = "../README.md"
+authors = ["PsyOptions <contact@psyoptions.io>"]
+license = "AGPL-3.0-or-later"
+keywords = ["solana", "anchor", "pyth"]
 
 [lib]
 crate-type = ["cdylib", "lib"]
@@ -16,5 +20,5 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-anchor-lang = "0.29.0"
+anchor-lang = "0.28.0"
 pyth-min = "0.1.1"
